@@ -5,7 +5,6 @@ import CardList from '../components/CardList.vue'
 import axios from 'axios'
 
 const { addToCart, cart, removeFromCart } = inject('cart')
-
 const items = ref([])
 const filters = reactive({
   search: '',
